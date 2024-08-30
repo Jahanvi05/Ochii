@@ -1,0 +1,1 @@
+to rotate eyes we need to know the angle , we have to find the difference (delta) between the centre of window (where the circle is originally) and the point where the mouse is currently. now, calculate the angle with formule- atan2(delta x , delta y) and the angle from this is in radian but we have to convert it into degree with the formulae - 180/math.pi(57.29)
